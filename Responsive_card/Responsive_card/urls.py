@@ -1,5 +1,5 @@
 """
-URL configuration for specific_navigation project.
+URL configuration for Responsive_card project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -15,12 +15,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
-import food,travel
+from django.urls import path
+from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('food/',include('food.urls')),
-    path('travel/',include('travel.urls')),
-    path('')
+    path('k/',k,name='k'),
 ]

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+   
+}
+card{
+    background-color:black;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color:beige;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: contain;
+    border-radius: 15px 15px 0 0;
+}
+.cake-1{
+    background-image: url('https://www.lifeloveandsugar.com/wp-content/uploads/2018/04/Raspberry-Chocolate-Layer-Cake5.jpg');
+
+}
